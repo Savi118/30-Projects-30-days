@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.root {
+  width: 50vw;
+  height: 110vh;
+  border: 1px solid black;
+  margin: 1vw 25vw;
+  background-color: burlywood;
+  border-radius: 20px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
+}
+
+.hero {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 5px solid black;
+  margin: 1% 5%;
+  border-radius: 5%;
+  background-color: blanchedalmond;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
+}
+
+.img-con {
+  width: 50%;
+  height: 90%;
+  margin: 30px;
+}
+
+.img-con img {
+  width: 80%;
+  border: 3px solid black;
+  border-radius: 40%;
+}
+
+.hero-txt {
+  margin-top: 80px;
+  font-family: "Vast Shadow", serif;
+  text-align: center;
+}
+
+.hero-txt h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.hero-txt h3 {
+  text-transform: capitalize;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: 2px solid black;
+  display: inline;
+  border-radius: 10%;
+  background-color: black;
+  color: white;
+  padding: 0 5px;
+  font-weight: 200;
+}
+
+.hero-content {
+  width: 90%;
+  margin: 0% 5%;
+  padding: 1% 10% 0%;
+  border: 3px solid black;
+  border-radius: 10%;
+  background-color: blanchedalmond;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
+}
+
+.hero-content p {
+  font-family: "Lexend Zetta", sans-serif;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  gap: 1px;
+  border: 1px solid black;
+  border-radius: 8%;
+  padding: 1% 2% 0.5%;
+  background-color: #b09266;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
+}
+
+.hero-content form {
+  border: 1px solid black;
+  margin: 1% 0%;
+  border-radius: 8%;
+  text-align: center;
+  background-color: #d1cbc1;
+}
+
+form h2 {
+  font-family: "Vast Shadow", serif;
+  font-weight: 300;
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 0% 20%;
+  margin: 0% 10%;
+  justify-content: space-around;
+  font-family: "Lexend Zetta", sans-serif;
+  gap: 5px;
+}
+
+.form-data input::placeholder {
+  text-align: center;
+  font-size: 12px;
+}
+
+.form-data textarea {
+  resize: none;
+  border-radius: 10%;
+}
+
+.form-data textarea::placeholder {
+  text-align: center;
+  font-size: 12px;
+  padding: 10%;
+}
+
+button {
+  width: 15%;
+  margin: 2% 0%;
+  font-size: 16px;
+  padding: 1%;
+  border-radius: 20px;
+  background-color: blueviolet;
+  border: 1px solid black;
+  color: white;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: white;
+  color: blueviolet;
+  box-shadow: 1px 1px 1px black;
+  transform: translateY(-8);
+}
+
+.footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+}
